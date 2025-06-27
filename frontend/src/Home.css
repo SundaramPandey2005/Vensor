@@ -1,0 +1,21 @@
+.home_image{
+    z-index:-1;
+    width:100%;
+    object-fit: contain;
+    margin-bottom: -200px;
+    /*This makes the gradient blur on the picture👇*/
+    mask-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.home{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right:auto;
+    align-items: center;
+    max-width:1500px;
+}
+.home_row{
+    display: flex;
+    justify-content: space-evenly;
+}

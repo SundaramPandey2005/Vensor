@@ -1,0 +1,62 @@
+.header{
+    height:60px;
+    display:flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top:0px;
+    z-index: 100;
+}
+.header_logo{
+    height:40px;
+    /* Object fit contain means that it is going to contan its aspect ratio so that it looks good when we change its height or width */
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+.header_searchIcon{
+    padding:5px;
+    height: 22px;
+    background-color: #cd9042;
+}
+.header_search{
+    padding:5px;
+    display:flex;
+    flex:1;/*This says that take all the available space for the header search div container*/
+    align-items:center;
+    height: 22px;
+    border-radius:24px;
+}
+.header_searchInput{
+    width:100%;
+    height: 14px;
+    border:none;
+    padding:10px;
+    
+}
+.header_nav{
+    display:flex;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+.header_option{
+    display:flex;
+    flex-direction:column;
+    color:white;
+}
+.header_lineOne{
+    font-size: 10px;
+}
+.header_lineTwo{
+    font-weight: bold ;
+    font-size: 12px;
+}
+.basket{
+    flex-direction: row;
+}
+.header_basketCount{
+ margin:0 5px;
+}
+a{
+    text-decoration: none;
+}

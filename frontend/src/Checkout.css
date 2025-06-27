@@ -1,0 +1,32 @@
+.checkout{
+    display:flex;
+    justify-content: space-around;
+}
+.left{
+    width:70%;
+    margin-top: 5vh;
+    margin-left: 3%;
+}
+.right{
+    width: 25%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.right > button{
+    background-color:rgb(226, 162, 13);
+    height: 30px;
+    margin-top: 10px;
+    border:1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.ad{
+    width:80%;
+    height: 10vh;
+}
+.vertical_line{
+    margin-top: 20px;
+    width: 2px;
+}
